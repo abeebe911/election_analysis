@@ -2,7 +2,7 @@
 import csv
 import os
 # Assign a variable to load a file from a path.
-file_to_load = os.path.join("Resources/election_results.csv")
+file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 # Initialize a total vote counter.
@@ -46,12 +46,12 @@ with open(file_to_save, "w") as txt_file:
     print(election_results, end="")
     # Save the final vote count to the text file.
     txt_file.write(election_results)
-    for candidate in candidate_votes:
+    for candidate_name in candidate_votes:
         # Retrieve vote count and percentage.
-        votes = candidate_votes[candidate]
+        votes = candidate_votes[candidate_name]
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
-            f"{candidate}: {vote_percentage:.1f}% ({votes:,})\n")
+            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
         # Print each candidate's voter count and percentage to the terminal.
         print(candidate_results)
@@ -60,7 +60,7 @@ with open(file_to_save, "w") as txt_file:
         # Determine winning vote count, winning percentage, and winning candidate.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
-            winning_candidate = candidate
+            winning_candidate = candidate_name
             winning_percentage = vote_percentage
     # Print the winning candidate's results to the terminal.
     winning_candidate_summary = (
