@@ -63,4 +63,4 @@ Denver had the largest county turnout with 306,055 votes (82.8% of the vote tota
 ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 ![diana_degette_totals.png](Resources/diana_degette_totals.png)
 
-### Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+
