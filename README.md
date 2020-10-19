@@ -15,15 +15,15 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Summary
 The analysis of the election show that:
--There were "x" votes cast in the election.
+-There were 369,711 votes cast in the election.
 -The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
   - Raymon Anthony Doane
  -The candidate results were:
-  - Charles Casper Stockham received 23% of the vote and 85,213 votes
-  - Diana DeGette received 73.8% of the vote and 272,892 votes
-  - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes
+    1. Charles Casper Stockham received 23% of the vote and 85,213 votes
+    2. Diana DeGette received 73.8% of the vote and 272,892 votes
+    3. Raymon Anthony Doane received 3.1% of the vote and 11,606 votes
  -The winner of the election was:
   - Diana Degette who received 73.8% of the vote and 272,892 votes
   
@@ -51,12 +51,12 @@ There were 369,711 votes cast in this congressional election.
 
 ### Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 Denver had the largest county turnout with 306,055 votes (82.8% of the vote total).
-![breakdown_of_votes.png](resources/breakdown_of_votes.png)
+![breakdown_of_votes.png](Resources/breakdown_of_votes.png)
 
 ### Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-![votes_by_candidate.png](resources/votes_by_candidate.png)
+![votes_by_candidate.png](Resources/votes_by_candidate.png)
 
 ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-![diana_degette_totals.png](resources/diana_degette_totals.png)
+![diana_degette_totals.png](Resources/diana_degette_totals.png)
 
 ### Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
