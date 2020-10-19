@@ -42,17 +42,21 @@ Deliverable 3: A written Analysis of the Election Audit
  
  ## Challenge Summary
 ### Overview of Election Audit: Explain the purpose of this election audit analysis.
+The purpose of this audit was to provide the Colorado Board of Elections with additional data to complete the audit. In addition to the information already provided, they wanted the voter turnout by county, the percentage of votes from each of those counties, and the county with the highest turnout. With this information, they will have a better idea of how this election turned out.
 
 ### Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
 ### How many votes were cast in this congressional election?
+There were 369,711 votes cast in this congressional election.
 
 ### Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-
-### Which county had the largest number of votes?
+Denver had the largest county turnout with 306,055 votes (82.8% of the vote total).
+![breakdown_of_votes.png](resources/breakdown_of_votes.png)
 
 ### Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+![votes_by_candidate.png](resources/votes_by_candidate.png)
 
 ### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+![diana_degette_totals.png](resources/diana_degette_totals.png)
 
 ### Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
