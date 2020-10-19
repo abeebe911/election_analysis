@@ -14,9 +14,9 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Software: Python 3.9, Visual Studio Code
 
 ## Summary
-![PyPoll_Challenge1.png](Resources/PyPoll_Challenge1.png) ![PyPoll_Challenge2.png](PyPoll_Challenge2.png)
+![PyPoll_Challenge1.png](Resources/PyPoll_Challenge1.png), ![PyPoll_Challenge2.png](PyPoll_Challenge2.png)
 
-After writing, debugging, and running the above Python script, the analysis of the election show that:
+After writing, debugging, and running the above Python script, the analysis of the election shows that:
 
 There were 369,711 votes cast in the election.
 
