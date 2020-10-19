@@ -35,9 +35,9 @@ The winner of the election was *Diana Degette*, who received 73.8% of the vote a
  ## Challenge Overview
 The election commission has requested some additional data to complete the audit:
 
-The voter turnout for each county
-The percentage of votes from each county out of the total count
-The county with the highest turnout
+  1. The voter turnout for each county
+  2. The percentage of votes from each county out of the total count
+  3. The county with the highest turnout
 
 This new assignment consists of two technical analysis deliverables and a written report to deliver your results. You will submit the following:
 
